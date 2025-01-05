@@ -10,10 +10,10 @@
     </parent>
 
     <groupId>com.lcl</groupId>
-    <artifactId>NF_Server</artifactId>
+    <artifactId>NFT_Server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>NF_Server</name>
-    <description>NF_Server</description>
+    <name>NFT_Server</name>
+    <description>NFT_Server</description>
     <packaging>pom</packaging>
 
     <properties>
@@ -27,7 +27,7 @@
     </properties>
 
     <modules>
-
+        <module>nft-common</module>
     </modules>
 
 
