@@ -1,0 +1,3 @@
+redis:
+    serverAddress: redis://localhost:6379
+    serverPassword: 123456
