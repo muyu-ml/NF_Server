@@ -103,23 +103,23 @@
 <!--                <version>${project.version}</version>-->
 <!--            </dependency>-->
 
-<!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-cache</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl</groupId>
+                <artifactId>nft-cache</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
 
-<!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-sa-token</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl</groupId>
+                <artifactId>nft-sa-token</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
 
-<!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-limiter</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl</groupId>
+                <artifactId>nft-limiter</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
 
 <!--            <dependency>-->
 <!--                <groupId>cn.hollis</groupId>-->

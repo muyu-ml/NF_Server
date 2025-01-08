@@ -22,6 +22,9 @@
 
     <modules>
         <module>nft-base</module>
+        <module>nft-cache</module>
+        <module>nft-sa-token</module>
+        <module>nft-limiter</module>
     </modules>
 
 
