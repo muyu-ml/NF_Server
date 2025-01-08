@@ -8,9 +8,9 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.lcl</groupId>
-    <artifactId>nft-sa-token</artifactId>
+    <artifactId>nft-lock</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <description>nft-sa-token</description>
+    <description>分布式锁组件</description>
 
     <properties>
         <maven.compiler.source>${java.version}</maven.compiler.source>
@@ -19,24 +19,10 @@
     </properties>
 
     <dependencies>
-        <!-- Sa-Token 权限认证 -->
         <dependency>
-            <groupId>cn.dev33</groupId>
-            <artifactId>sa-token-spring-boot3-starter</artifactId>
-            <version>1.37.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>cn.dev33</groupId>
-            <artifactId>sa-token-redis-jackson</artifactId>
-            <version>1.37.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-pool2</artifactId>
+            <groupId>com.lcl</groupId>
+            <artifactId>nft-cache</artifactId>
         </dependency>
     </dependencies>
-
 
 </project>
