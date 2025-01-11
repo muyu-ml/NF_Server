@@ -63,11 +63,11 @@
                 <version>1.18.30</version>
             </dependency>
 
-<!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-base</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl.nft.base</groupId>
+                <artifactId>nft-base</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
 <!--            <dependency>-->
 <!--                <groupId>cn.hollis</groupId>-->
@@ -108,26 +108,26 @@
             <dependency>
                 <groupId>com.lcl</groupId>
                 <artifactId>nft-cache</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.lcl</groupId>
                 <artifactId>nft-sa-token</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <version>${project.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.lcl</groupId>
                 <artifactId>nft-limiter</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <version>${project.version}</version>
             </dependency>
 
-<!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-web</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl</groupId>
+                <artifactId>nft-web</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
 <!--            <dependency>-->
 <!--                <groupId>cn.hollis</groupId>-->
@@ -153,11 +153,11 @@
 <!--                <version>${project.version}</version>-->
 <!--            </dependency>-->
 
-<!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-lock</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl</groupId>
+                <artifactId>nft-lock</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
 <!--            <dependency>-->
 <!--                <groupId>cn.hollis</groupId>-->
