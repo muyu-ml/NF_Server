@@ -27,6 +27,7 @@
         <module>nft-limiter</module>
         <module>nft-lock</module>
         <module>nft-web</module>
+        <module>nft-config</module>
     </modules>
 
 

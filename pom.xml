@@ -171,11 +171,11 @@
 <!--                <version>${project.version}</version>-->
 <!--            </dependency>-->
 
-<!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-config</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl</groupId>
+                <artifactId>nft-config</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
 
 <!--            <dependency>-->
