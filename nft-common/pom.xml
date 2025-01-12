@@ -28,6 +28,7 @@
         <module>nft-lock</module>
         <module>nft-web</module>
         <module>nft-config</module>
+        <module>nft-datasource</module>
     </modules>
 
 
