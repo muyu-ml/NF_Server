@@ -31,6 +31,7 @@
         <module>nft-datasource</module>
         <module>nft-es</module>
         <module>nft-job</module>
+        <module>nft-file</module>
     </modules>
 
 
