@@ -29,6 +29,7 @@
         <module>nft-web</module>
         <module>nft-config</module>
         <module>nft-datasource</module>
+        <module>nft-es</module>
     </modules>
 
 
