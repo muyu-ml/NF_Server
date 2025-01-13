@@ -25,7 +25,7 @@
         <spring-boot.version>3.2.2</spring-boot.version>
         <spring-cloud.version>2023.0.0</spring-cloud.version>
         <spring-cloud-alibaba.version>2023.0.1.2</spring-cloud-alibaba.version>
-<!--        <dubbo.version>3.2.10</dubbo.version>-->
+        <dubbo.version>3.2.10</dubbo.version>
     </properties>
 
     <modules>
@@ -209,11 +209,11 @@
 <!--                <version>${project.version}</version>-->
 <!--            </dependency>-->
 
-<!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-job</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl</groupId>
+                <artifactId>nft-job</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
 <!--            <dependency>-->
 <!--                <groupId>cn.hollis</groupId>-->
@@ -227,16 +227,16 @@
 <!--                <version>${project.version}</version>-->
 <!--            </dependency>-->
 
-<!--            <dependency>-->
-<!--                <groupId>org.apache.dubbo</groupId>-->
-<!--                <artifactId>dubbo-spring-boot-starter</artifactId>-->
-<!--                <version>${dubbo.version}</version>-->
-<!--            </dependency>-->
-<!--            <dependency>-->
-<!--                <groupId>org.apache.dubbo</groupId>-->
-<!--                <artifactId>dubbo-registry-nacos</artifactId>-->
-<!--                <version>${dubbo.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+                <version>${dubbo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-registry-nacos</artifactId>
+                <version>${dubbo.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.alibaba.fastjson2</groupId>
