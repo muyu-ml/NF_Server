@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-@interface DistributeLock {
+public @interface DistributeLock {
     /**
      * 锁的场景
      * @return

@@ -34,6 +34,7 @@
         <module>nft-file</module>
         <module>nft-rpc</module>
         <module>nft-seata</module>
+        <module>nft-sms</module>
     </modules>
 
 
