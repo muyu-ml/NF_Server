@@ -32,6 +32,8 @@
         <module>nft-es</module>
         <module>nft-job</module>
         <module>nft-file</module>
+        <module>nft-rpc</module>
+        <module>nft-seata</module>
     </modules>
 
 
