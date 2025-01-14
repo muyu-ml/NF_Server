@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    stream:
+      rocketmq:
+        binder:
+          name-server: ${nft.rocketmq.url}
