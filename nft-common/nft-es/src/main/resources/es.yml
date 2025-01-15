@@ -1,0 +1,11 @@
+spring:
+  elasticsearch:
+    enable: ${nft.elasticsearch.enable}
+    uris: http://${nft.elasticsearch.url}
+    username: ${nft.elasticsearch.username}
+    password: ${nft.elasticsearch.password}
+easy-es:
+  enable: ${nft.elasticsearch.enable}
+  address : ${nft.elasticsearch.url}
+  username: ${nft.elasticsearch.username}
+  password: ${nft.elasticsearch.password}

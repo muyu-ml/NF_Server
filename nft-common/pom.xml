@@ -15,13 +15,29 @@
     <description>nft-common</description>
 
     <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <project.build.sourceEncoding>${build.encoding}</project.build.sourceEncoding>
     </properties>
 
     <modules>
         <module>nft-base</module>
+        <module>nft-cache</module>
+        <module>nft-sa-token</module>
+        <module>nft-limiter</module>
+        <module>nft-lock</module>
+        <module>nft-web</module>
+        <module>nft-config</module>
+        <module>nft-datasource</module>
+        <module>nft-es</module>
+        <module>nft-job</module>
+        <module>nft-file</module>
+        <module>nft-rpc</module>
+        <module>nft-seata</module>
+        <module>nft-sms</module>
+        <module>nft-mq</module>
+        <module>nft-order-client</module>
+        <module>nft-api</module>
     </modules>
 
 

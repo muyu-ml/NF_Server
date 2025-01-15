@@ -1,0 +1,8 @@
+spring:
+  xxl:
+    job:
+      enabled: true
+      adminAddresses: http://${nft.xxl-job.url}/xxl-job-admin/
+      appName: ${nft.xxl-job.appName}
+      accessToken: ${nft.xxl-job.accessToken}
+
