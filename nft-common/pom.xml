@@ -37,6 +37,7 @@
         <module>nft-sms</module>
         <module>nft-mq</module>
         <module>ntf-order-client</module>
+        <module>ntf-api</module>
     </modules>
 
 
