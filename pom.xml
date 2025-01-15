@@ -69,39 +69,39 @@
                 <version>${project.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.lcl</groupId>
+                <artifactId>nft-api</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
 <!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-api</artifactId>-->
+<!--                <groupId>com.lcl</groupId>-->
+<!--                <artifactId>nft-auth</artifactId>-->
 <!--                <version>${project.version}</version>-->
 <!--            </dependency>-->
 
 <!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-auth</artifactId>-->
+<!--                <groupId>com.lcl</groupId>-->
+<!--                <artifactId>nft-gateway</artifactId>-->
 <!--                <version>${project.version}</version>-->
 <!--            </dependency>-->
 
 <!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-gateway</artifactId>-->
+<!--                <groupId>com.lcl</groupId>-->
+<!--                <artifactId>nft-admin</artifactId>-->
 <!--                <version>${project.version}</version>-->
 <!--            </dependency>-->
 
 <!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-admin</artifactId>-->
+<!--                <groupId>com.lcl</groupId>-->
+<!--                <artifactId>nft-notice</artifactId>-->
 <!--                <version>${project.version}</version>-->
 <!--            </dependency>-->
 
 <!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-notice</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
-
-<!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-chain</artifactId>-->
+<!--                <groupId>com.lcl</groupId>-->
+<!--                <artifactId>nft-chain</artifactId>-->
 <!--                <version>${project.version}</version>-->
 <!--            </dependency>-->
 
@@ -129,29 +129,29 @@
                 <version>${project.version}</version>
             </dependency>
 
-<!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-datasource</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl</groupId>
+                <artifactId>nft-datasource</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
-<!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-es</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl</groupId>
+                <artifactId>nft-es</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
-<!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-rpc</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl</groupId>
+                <artifactId>nft-rpc</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
-<!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-mq</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl</groupId>
+                <artifactId>nft-mq</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.lcl</groupId>
@@ -159,17 +159,17 @@
                 <version>${project.version}</version>
             </dependency>
 
-<!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-file</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl</groupId>
+                <artifactId>nft-file</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
-<!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-sms</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl</groupId>
+                <artifactId>nft-sms</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.lcl</groupId>
@@ -179,33 +179,33 @@
 
 
 <!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-collection</artifactId>-->
+<!--                <groupId>com.lcl</groupId>-->
+<!--                <artifactId>nft-collection</artifactId>-->
 <!--                <version>${project.version}</version>-->
 <!--            </dependency>-->
 <!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-goods</artifactId>-->
+<!--                <groupId>com.lcl</groupId>-->
+<!--                <artifactId>nft-goods</artifactId>-->
 <!--                <version>${project.version}</version>-->
 <!--            </dependency>-->
 <!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-pay</artifactId>-->
+<!--                <groupId>com.lcl</groupId>-->
+<!--                <artifactId>nft-pay</artifactId>-->
 <!--                <version>${project.version}</version>-->
 <!--            </dependency>-->
 <!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-order</artifactId>-->
+<!--                <groupId>com.lcl</groupId>-->
+<!--                <artifactId>nft-order</artifactId>-->
 <!--                <version>${project.version}</version>-->
 <!--            </dependency>-->
 <!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-user</artifactId>-->
+<!--                <groupId>com.lcl</groupId>-->
+<!--                <artifactId>nft-user</artifactId>-->
 <!--                <version>${project.version}</version>-->
 <!--            </dependency>-->
 <!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-trade</artifactId>-->
+<!--                <groupId>com.lcl</groupId>-->
+<!--                <artifactId>nft-trade</artifactId>-->
 <!--                <version>${project.version}</version>-->
 <!--            </dependency>-->
 
@@ -215,17 +215,17 @@
                 <version>${project.version}</version>
             </dependency>
 
-<!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-order-client</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl</groupId>
+                <artifactId>nft-order-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
-<!--            <dependency>-->
-<!--                <groupId>cn.hollis</groupId>-->
-<!--                <artifactId>nft-turbo-seata</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl</groupId>
+                <artifactId>nft-seata</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>org.apache.dubbo</groupId>
