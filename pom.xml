@@ -30,6 +30,7 @@
 
     <modules>
         <module>nft-common</module>
+        <module>nft-auth</module>
     </modules>
 
 
