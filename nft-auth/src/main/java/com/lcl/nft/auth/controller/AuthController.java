@@ -8,15 +8,15 @@ import com.lcl.nft.auth.param.RegisterParam;
 import com.lcl.nft.auth.vo.LoginVO;
 import com.lcl.nft.base.validator.IsMobile;
 import com.lcl.nft.web.vo.Result;
-import com.lcl.ntf.api.chain.service.ChainFacadeService;
-import com.lcl.ntf.api.notice.response.NoticeResponse;
-import com.lcl.ntf.api.notice.service.NoticeFacadeService;
-import com.lcl.ntf.api.user.request.UserQueryRequest;
-import com.lcl.ntf.api.user.request.UserRegisterRequest;
-import com.lcl.ntf.api.user.response.UserOperatorResponse;
-import com.lcl.ntf.api.user.response.UserQueryResponse;
-import com.lcl.ntf.api.user.response.data.UserInfo;
-import com.lcl.ntf.api.user.service.UserFacadeService;
+import com.lcl.nft.api.chain.service.ChainFacadeService;
+import com.lcl.nft.api.notice.response.NoticeResponse;
+import com.lcl.nft.api.notice.service.NoticeFacadeService;
+import com.lcl.nft.api.user.request.UserQueryRequest;
+import com.lcl.nft.api.user.request.UserRegisterRequest;
+import com.lcl.nft.api.user.response.UserOperatorResponse;
+import com.lcl.nft.api.user.response.UserQueryResponse;
+import com.lcl.nft.api.user.response.data.UserInfo;
+import com.lcl.nft.api.user.service.UserFacadeService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -27,7 +27,7 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import static com.lcl.nft.auth.exception.AuthErrorCode.VERIFICATION_CODE_WRONG;
-import static com.lcl.ntf.api.notice.constant.NoticeConstant.CAPTCHA_KEY_PREFIX;
+import static com.lcl.nft.api.notice.constant.NoticeConstant.CAPTCHA_KEY_PREFIX;
 
 /**
  * @Author conglongli
