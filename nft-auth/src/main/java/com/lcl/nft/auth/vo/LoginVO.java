@@ -1,7 +1,7 @@
 package com.lcl.nft.auth.vo;
 
 import cn.dev33.satoken.stp.StpUtil;
-import com.lcl.ntf.api.user.response.data.UserInfo;
+import com.lcl.nft.api.user.response.data.UserInfo;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

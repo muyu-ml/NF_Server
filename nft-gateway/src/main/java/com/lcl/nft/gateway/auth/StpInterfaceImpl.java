@@ -2,10 +2,10 @@ package com.lcl.nft.gateway.auth;
 
 import cn.dev33.satoken.stp.StpInterface;
 import cn.dev33.satoken.stp.StpUtil;
-import com.lcl.ntf.api.user.constant.UserPermission;
-import com.lcl.ntf.api.user.constant.UserRole;
-import com.lcl.ntf.api.user.constant.UserStateEnum;
-import com.lcl.ntf.api.user.response.data.UserInfo;
+import com.lcl.nft.api.user.constant.UserPermission;
+import com.lcl.nft.api.user.constant.UserRole;
+import com.lcl.nft.api.user.constant.UserStateEnum;
+import com.lcl.nft.api.user.response.data.UserInfo;
 
 import java.util.List;
 
