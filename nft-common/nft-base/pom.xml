@@ -8,7 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.lcl.nft.base</groupId>
+    <groupId>com.lcl</groupId>
     <artifactId>nft-base</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>nft-base</name>

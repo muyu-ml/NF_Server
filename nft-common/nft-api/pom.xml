@@ -20,7 +20,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.lcl.nft.base</groupId>
+            <groupId>com.lcl</groupId>
             <artifactId>nft-base</artifactId>
         </dependency>
     </dependencies>
