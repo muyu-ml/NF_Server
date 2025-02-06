@@ -1,6 +1,6 @@
-package com.lcl.ntf.order.config;
+package com.lcl.nft.order.config;
 
-import com.lcl.ntf.order.sharding.id.WorkerIdHolder;
+import com.lcl.nft.order.sharding.id.WorkerIdHolder;
 import org.redisson.api.RedissonClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -5,9 +5,9 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.github.houbb.sensitive.annotation.strategy.SensitiveStrategyPhone;
 import com.lcl.nft.datasource.domain.entity.BaseEntity;
-import com.lcl.nft.user.infratructure.mapper.AesEncryptTypeHandler;
-import com.lcl.ntf.api.user.constant.UserRole;
-import com.lcl.ntf.api.user.constant.UserStateEnum;
+import com.lcl.nft.user.infrastructure.mapper.AesEncryptTypeHandler;
+import com.lcl.nft.api.user.constant.UserRole;
+import com.lcl.nft.api.user.constant.UserStateEnum;
 import lombok.Getter;
 import lombok.Setter;
 

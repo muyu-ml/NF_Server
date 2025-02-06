@@ -1,7 +1,7 @@
 package com.lcl.nft.user.domain.entity.convertor;
 
 import com.lcl.nft.user.domain.entity.User;
-import com.lcl.ntf.api.user.response.data.UserInfo;
+import com.lcl.nft.api.user.response.data.UserInfo;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.NullValueCheckStrategy;

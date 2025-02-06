@@ -1,8 +1,8 @@
-package com.lcl.ntf.order;
+package com.lcl.nft.order;
 
 import cn.hutool.core.util.IdUtil;
-import com.lcl.ntf.api.common.constant.BusinessCode;
-import com.lcl.ntf.order.sharding.id.DistributeID;
+import com.lcl.nft.api.common.constant.BusinessCode;
+import com.lcl.nft.order.sharding.id.DistributeID;
 import org.junit.Assert;
 import org.junit.Test;
 

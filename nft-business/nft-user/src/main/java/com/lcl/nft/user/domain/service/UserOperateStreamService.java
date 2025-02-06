@@ -4,8 +4,8 @@ import com.alibaba.fastjson2.JSON;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.lcl.nft.user.domain.entity.User;
 import com.lcl.nft.user.domain.entity.UserOperateStream;
-import com.lcl.nft.user.infratructure.mapper.UserOperateStreamMapper;
-import com.lcl.ntf.api.user.constant.UserOperateTypeEnum;
+import com.lcl.nft.user.infrastructure.mapper.UserOperateStreamMapper;
+import com.lcl.nft.api.user.constant.UserOperateTypeEnum;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;

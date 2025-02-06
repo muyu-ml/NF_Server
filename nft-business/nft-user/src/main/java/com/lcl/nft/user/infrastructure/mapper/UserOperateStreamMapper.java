@@ -1,4 +1,4 @@
-package com.lcl.nft.user.infratructure.mapper;
+package com.lcl.nft.user.infrastructure.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.lcl.nft.user.domain.entity.UserOperateStream;

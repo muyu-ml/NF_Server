@@ -1,4 +1,4 @@
-package com.lcl.ntf.order.sharding.id;
+package com.lcl.nft.order.sharding.id;
 
 import org.redisson.api.RAtomicLong;
 import org.redisson.api.RedissonClient;

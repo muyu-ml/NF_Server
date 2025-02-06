@@ -6,19 +6,19 @@ import com.lcl.nft.file.FileService;
 import com.lcl.nft.user.domain.entity.User;
 import com.lcl.nft.user.domain.entity.convertor.UserConvertor;
 import com.lcl.nft.user.domain.service.UserService;
-import com.lcl.nft.user.infratructure.exception.UserException;
+import com.lcl.nft.user.infrastructure.exception.UserException;
 import com.lcl.nft.user.param.UserAuthParam;
 import com.lcl.nft.user.param.UserModifyParam;
 import com.lcl.nft.web.vo.Result;
-import com.lcl.ntf.api.chain.request.ChainProcessRequest;
-import com.lcl.ntf.api.chain.response.ChainProcessResponse;
-import com.lcl.ntf.api.chain.response.data.ChainCreateData;
-import com.lcl.ntf.api.chain.service.ChainFacadeService;
-import com.lcl.ntf.api.user.request.UserActiveRequest;
-import com.lcl.ntf.api.user.request.UserAuthRequest;
-import com.lcl.ntf.api.user.request.UserModifyRequest;
-import com.lcl.ntf.api.user.response.UserOperatorResponse;
-import com.lcl.ntf.api.user.response.data.UserInfo;
+import com.lcl.nft.api.chain.request.ChainProcessRequest;
+import com.lcl.nft.api.chain.response.ChainProcessResponse;
+import com.lcl.nft.api.chain.response.data.ChainCreateData;
+import com.lcl.nft.api.chain.service.ChainFacadeService;
+import com.lcl.nft.api.user.request.UserActiveRequest;
+import com.lcl.nft.api.user.request.UserAuthRequest;
+import com.lcl.nft.api.user.request.UserModifyRequest;
+import com.lcl.nft.api.user.response.UserOperatorResponse;
+import com.lcl.nft.api.user.response.data.UserInfo;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -31,7 +31,7 @@ import java.io.InputStream;
 
 import static com.lcl.nft.api.common.constant.CommonConstant.APP_NAME_UPPER;
 import static com.lcl.nft.api.common.constant.CommonConstant.SEPARATOR;
-import static com.lcl.nft.user.infratructure.exception.UserErrorCode.*;
+import static com.lcl.nft.user.infrastructure.exception.UserErrorCode.*;
 
 /**
  * 用户信息

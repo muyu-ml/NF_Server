@@ -19,16 +19,16 @@ import com.lcl.nft.base.response.PageResponse;
 import com.lcl.nft.lock.DistributeLock;
 import com.lcl.nft.user.domain.entity.User;
 import com.lcl.nft.user.domain.entity.convertor.UserConvertor;
-import com.lcl.nft.user.infratructure.exception.UserErrorCode;
-import com.lcl.nft.user.infratructure.exception.UserException;
-import com.lcl.nft.user.infratructure.mapper.UserMapper;
-import com.lcl.ntf.api.user.constant.UserOperateTypeEnum;
-import com.lcl.ntf.api.user.constant.UserStateEnum;
-import com.lcl.ntf.api.user.request.UserActiveRequest;
-import com.lcl.ntf.api.user.request.UserAuthRequest;
-import com.lcl.ntf.api.user.request.UserModifyRequest;
-import com.lcl.ntf.api.user.response.UserOperatorResponse;
-import com.lcl.ntf.api.user.response.data.InviteRankInfo;
+import com.lcl.nft.user.infrastructure.exception.UserErrorCode;
+import com.lcl.nft.user.infrastructure.exception.UserException;
+import com.lcl.nft.user.infrastructure.mapper.UserMapper;
+import com.lcl.nft.api.user.constant.UserOperateTypeEnum;
+import com.lcl.nft.api.user.constant.UserStateEnum;
+import com.lcl.nft.api.user.request.UserActiveRequest;
+import com.lcl.nft.api.user.request.UserAuthRequest;
+import com.lcl.nft.api.user.request.UserModifyRequest;
+import com.lcl.nft.api.user.response.UserOperatorResponse;
+import com.lcl.nft.api.user.response.data.InviteRankInfo;
 import jakarta.annotation.PostConstruct;
 import org.apache.commons.lang3.StringUtils;
 import org.redisson.api.RBloomFilter;
@@ -48,7 +48,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import static com.lcl.nft.user.infratructure.exception.UserErrorCode.*;
+import static com.lcl.nft.user.infrastructure.exception.UserErrorCode.*;
 
 /**
  * 用户服务
@@ -88,12 +88,12 @@ public class UserService extends ServiceImpl<UserMapper, User> implements Initia
 
     @PostConstruct
     public void init() {
-        QuickConfig idQc = QuickConfig.newBuilder(":user:cache:id:")
+        QuickConfig quickConfig = QuickConfig.newBuilder(":user:cache:id:")
                 .cacheType(CacheType.BOTH)
                 .expire(Duration.ofHours(2))
                 .syncLocal(true)
                 .build();
-        idUserCache = cacheManager.getOrCreateCache(idQc);
+        idUserCache = cacheManager.getOrCreateCache(quickConfig);
     }
 
     @DistributeLock(keyExpression = "#telephone", scene = "USER_REGISTER")

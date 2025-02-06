@@ -2,9 +2,9 @@ package com.lcl.nft.user.facade;
 
 import com.lcl.nft.rpc.facade.Facade;
 import com.lcl.nft.user.domain.service.UserService;
-import com.lcl.ntf.api.user.request.UserRegisterRequest;
-import com.lcl.ntf.api.user.response.UserOperatorResponse;
-import com.lcl.ntf.api.user.service.UserManageFacadeService;
+import com.lcl.nft.api.user.request.UserRegisterRequest;
+import com.lcl.nft.api.user.response.UserOperatorResponse;
+import com.lcl.nft.api.user.service.UserManageFacadeService;
 import org.apache.dubbo.config.annotation.DubboService;
 import org.springframework.beans.factory.annotation.Autowired;
 

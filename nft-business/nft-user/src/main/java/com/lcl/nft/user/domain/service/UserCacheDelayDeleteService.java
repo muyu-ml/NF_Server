@@ -20,13 +20,12 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 public class UserCacheDelayDeleteService {
 
-    private static ThreadFactory userCacheDelayProcessFactory = new ThreadFactoryBuilder()
-            .setNameFormat("user-cache-delay-delete-pool-%d").build();
+    private static ThreadFactory userCacheDelayProcessFactory = new ThreadFactoryBuilder().setNameFormat("user-cache-delay-delete-pool-%d").build();
 
-    private ScheduledExecutorService scheduler = new ScheduledThreadPoolExecutor(10, userCacheDelayProcessFactory);
+    private ScheduledExecutorService scheduled = new ScheduledThreadPoolExecutor(10, userCacheDelayProcessFactory);
 
     public void delayedCacheDelete(Cache idUserCache, User user) {
-        scheduler.schedule(() -> {
+        scheduled.schedule(() -> {
             boolean idDeleteResult = idUserCache.remove(user.getId().toString());
             log.info("idUserCache removed, key = {} , result  = {}", user.getId(), idDeleteResult);
         }, 2, TimeUnit.SECONDS);

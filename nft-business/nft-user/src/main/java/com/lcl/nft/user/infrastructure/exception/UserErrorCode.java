@@ -1,4 +1,4 @@
-package com.lcl.nft.user.infratructure.exception;
+package com.lcl.nft.user.infrastructure.exception;
 
 import com.lcl.nft.base.exception.ErrorCode;
 

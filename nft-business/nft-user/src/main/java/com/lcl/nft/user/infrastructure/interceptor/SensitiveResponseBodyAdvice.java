@@ -1,9 +1,9 @@
-package com.lcl.nft.user.infratructure.interceptor;
+package com.lcl.nft.user.infrastructure.interceptor;
 
 import com.github.houbb.sensitive.core.api.SensitiveUtil;
 import com.lcl.nft.web.vo.Result;
-import com.lcl.ntf.api.user.response.data.InviteRankInfo;
-import com.lcl.ntf.api.user.response.data.UserInfo;
+import com.lcl.nft.api.user.response.data.InviteRankInfo;
+import com.lcl.nft.api.user.response.data.UserInfo;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;

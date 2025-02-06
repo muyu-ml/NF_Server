@@ -32,6 +32,7 @@
         <module>nft-common</module>
         <module>nft-gateway</module>
         <module>nft-auth</module>
+        <module>nft-business</module>
     </modules>
 
 
@@ -77,17 +78,17 @@
                 <version>${project.version}</version>
             </dependency>
 
-<!--            <dependency>-->
-<!--                <groupId>com.lcl</groupId>-->
-<!--                <artifactId>nft-auth</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl</groupId>
+                <artifactId>nft-auth</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
-<!--            <dependency>-->
-<!--                <groupId>com.lcl</groupId>-->
-<!--                <artifactId>nft-gateway</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl.nft</groupId>
+                <artifactId>nft-gateway</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
 <!--            <dependency>-->
 <!--                <groupId>com.lcl</groupId>-->
@@ -200,11 +201,11 @@
 <!--                <artifactId>nft-order</artifactId>-->
 <!--                <version>${project.version}</version>-->
 <!--            </dependency>-->
-<!--            <dependency>-->
-<!--                <groupId>com.lcl</groupId>-->
-<!--                <artifactId>nft-user</artifactId>-->
-<!--                <version>${project.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.lcl</groupId>
+                <artifactId>nft-user</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 <!--            <dependency>-->
 <!--                <groupId>com.lcl</groupId>-->
 <!--                <artifactId>nft-trade</artifactId>-->

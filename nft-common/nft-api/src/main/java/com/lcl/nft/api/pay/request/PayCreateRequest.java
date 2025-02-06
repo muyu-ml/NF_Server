@@ -1,7 +1,7 @@
 package com.lcl.nft.api.pay.request;
 
 import com.lcl.nft.base.request.BaseRequest;
-import com.lcl.ntf.api.common.constant.BizOrderType;
+import com.lcl.nft.api.common.constant.BizOrderType;
 import com.lcl.nft.api.pay.constant.PayChannel;
 import com.lcl.nft.api.user.constant.UserType;
 import jakarta.validation.constraints.NotNull;

@@ -1,4 +1,4 @@
-package com.lcl.nft.user.infratructure.util;
+package com.lcl.nft.user.infrastructure.util;
 
 import cn.hutool.crypto.SecureUtil;
 import cn.hutool.crypto.symmetric.AES;

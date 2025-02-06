@@ -1,6 +1,6 @@
-package com.lcl.nft.user.infratructure.mapper;
+package com.lcl.nft.user.infrastructure.mapper;
 
-import com.lcl.nft.user.infratructure.util.AesUtil;
+import com.lcl.nft.user.infrastructure.util.AesUtil;
 import org.apache.ibatis.type.BaseTypeHandler;
 import org.apache.ibatis.type.JdbcType;
 

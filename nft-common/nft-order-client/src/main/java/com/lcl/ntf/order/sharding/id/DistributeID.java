@@ -1,8 +1,8 @@
-package com.lcl.ntf.order.sharding.id;
+package com.lcl.nft.order.sharding.id;
 
 import cn.hutool.core.util.IdUtil;
-import com.lcl.ntf.api.common.constant.BusinessCode;
-import com.lcl.ntf.order.sharding.strategy.DefaultShardingTableStrategy;
+import com.lcl.nft.api.common.constant.BusinessCode;
+import com.lcl.nft.order.sharding.strategy.DefaultShardingTableStrategy;
 import org.apache.commons.lang3.StringUtils;
 
 /**
