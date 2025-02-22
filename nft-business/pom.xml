@@ -16,6 +16,7 @@
 
     <modules>
         <module>nft-user</module>
+        <module>nft-chain</module>
     </modules>
 
     <properties>

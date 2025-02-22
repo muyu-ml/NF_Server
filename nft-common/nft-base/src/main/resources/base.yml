@@ -1,6 +1,5 @@
 # 这是项目的需要改动的所有配置的地址的汇总，需要改哪个中间件的地址，在本文件中修改即可！
 nft:
-  turbo:
     nacos:
       server:
         url: localhost:8848 # turbo.nacos.server.url - Nacos 的地址+端口号 #首次启动前务必修改成你自己的
