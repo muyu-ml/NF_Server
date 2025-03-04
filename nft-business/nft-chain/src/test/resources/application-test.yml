@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: nfturbo-test
+  config:
+    import: classpath:test.yml
+nft:
+  chain:
+    type: WEN_CHANG
