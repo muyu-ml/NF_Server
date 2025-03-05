@@ -18,6 +18,7 @@
         <module>nft-user</module>
         <module>nft-chain</module>
         <module>nft-collection</module>
+        <module>nft-goods</module>
     </modules>
 
     <properties>
