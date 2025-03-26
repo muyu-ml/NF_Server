@@ -8,6 +8,7 @@ import java.util.Map;
 import static com.lcl.nft.base.exception.BizErrorCode.STATE_MACHINE_TRANSITION_FAILED;
 
 /**
+ * 状态机
  * @Author conglongli
  * @date 2025/1/6 01:13
  */

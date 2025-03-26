@@ -19,6 +19,7 @@
         <module>nft-chain</module>
         <module>nft-collection</module>
         <module>nft-goods</module>
+        <module>nft-order</module>
     </modules>
 
     <properties>
